@@ -1,0 +1,395 @@
+
+
+    File
+    Edit
+    Examples
+    Help
+
+
+
+
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+
+
+        	
+        	
+        	
+        	
+
+
+        	
+        		
+
+
+		
+
+		
+
+		
+
+
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+
+
+    	
+    	
+    	
+    	
+
+
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+
+235 users online
+
+    [Login with Google] [Login with StackOverflow]
+    10977
+
+    Program
+
+1
+
+​
+
+2
+
+​
+
+3
+
+​
+
+4
+
+​
+
+5
+
+lubi(jan, ryby).
+
+6
+
+lubi(jan, muzyka).
+
+7
+
+lubi(anna, czekolada).
+
+8
+
+lubi(anna, muzyka). 
+
+9
+
+​
+
+10
+
+pogoda(lublin, lato, cieple).
+
+11
+
+pogoda(lublin, zima, umiarkowana).
+
+12
+
+pogoda(kair, lato, upalne).
+
+13
+
+pogoda(kair, zima, bardzo_ciepla).
+
+14
+
+pogoda(jakutsk, lato, umiarkowane).
+
+15
+
+pogoda(jakutsk, zima, bardzo_mrozna).
+
+16
+
+​
+
+17
+
+bodziec(dzwonek).
+
+18
+
+bodziec(szept).
+
+19
+
+bodziec(lampa).
+
+20
+
+kanal(dzwonek, sluch).
+
+21
+
+kanal(szept, sluch).
+
+22
+
+kanal(lampa, wzrok).
+
+23
+
+natezenie(dzwonek, glosny).
+
+24
+
+natezenie(szept, cichy).
+
+25
+
+natezenie(lampa, jasny).
+
+26
+
+​
+
+27
+
+owoc(jablko).
+
+28
+
+owoc(gruszka).
+
+29
+
+owoc(sliwka).
+
+30
+
+​
+
+31
+
+ owoc(jablko).
+
+32
+
+owoc(gruszka).
+
+33
+
+owoc(sliwka).
+
+34
+
+warzywo(marchew).
+
+35
+
+sezonowy(jablko).
+
+36
+
+sezonowy(marchew).
+
+37
+
+jadalne(X) :- owoc(X). 
+
+owoc(jablko).
+1true
+owoc(truskawka).
+false
+owoc(truskawka).
+1true
+owoc(X).
+X = jablko
+X = gruszka
+X = sliwka
+X = truskawka
+owoc(_).
+1true
+2true
+3true
+4true
+posiada(anna, ksiazka(Tytul, Autor)).
+
+procedure `posiada(A,B)' does not exist
+
+posiada(anna, ksiazka(Tytul, Autor)).
+
+ line 5:6: Syntax error: Operator expected
+
+ line 6:6: Syntax error: Operator expected
+
+procedure `posiada(A,B)' does not exist
+
+posiada(anna, ksiazka(Tytul, Autor)).
+
+ line 5:6: Syntax error: Operator expected
+
+ line 6:6: Syntax error: Operator expected
+
+ line 7:31: Syntax error: Unexpected end of file
+
+procedure `posiada(A,B)' does not exist
+
+posiada(anna, ksiazka(Tytul, Autor)).
+
+ line 5:6: Syntax error: Operator expected
+
+ line 6:6: Syntax error: Operator expected
+
+procedure `posiada(A,B)' does not exist
+
+posiada(anna, ksiazka(Tytul, Autor)).
+
+procedure `posiada(A,B)' does not exist
+
+posiada(anna, ksiazka(Tytul, Autor)).
+false
+posiada(anna, ksiazka(Tytul, Autor)).
+
+Singleton variables: [Tytul,Autor]
+
+1true
+posiada(anna, ksiazka(Tytul, Autor)).
+
+procedure `posiada(A,B)' does not exist
+
+posiada(anna, ksiazka(Tytul, Autor)).
+
+ line 5:40: Syntax error: Unexpected end of file
+
+procedure `posiada(A,B)' does not exist
+
+posiada(anna, ksiazka(Tytul, Autor)).
+Autor = tolkien,
+Tytul = hobbit
+odczyt(syrena,sluch,glosny) = odczyt(N,sluch,glosny).
+
+Singleton variables: [N]
+
+N = syrena
+kanaly(sluch,sluch) = kanaly(X,X).
+
+Singleton variables: [N]
+
+X = sluch
+kanaly(sluch,wzrok) = kanaly(X,X).
+
+Singleton variables: [N]
+
+false
+kanaly(sluch,wzrok) = kanaly(X,Y).
+
+Singleton variables: [N]
+
+X = sluch,
+Y = wzrok
+jadalne(X).
+
+Singleton variables: [N]
+
+Clauses of owoc/1 are not together in the source-file
+Earlier definition at  line 1
+Current predicate: syrena/1
+Use :- discontiguous owoc/1. to suppress this message
+
+X = jablko
+X = gruszka
+X = sliwka
+X = truskawka
+X = jablko
+X = gruszka
+X = sliwka
+jadalne(X).
+
+Singleton variables: [N]
+
+X = jablko
+X = gruszka
+X = sliwka
+jadalne(X).
+X = jablko
+X = gruszka
+X = sliwka
+jadalne(X).
+
+ line 0:1: Syntax error: End of file in /* ... */ comment
+
+procedure `jadalne(A)' does not exist
+
+jadalne(X).
+
+1: Syntax error: Operator expected
+
+X = gruszka
+X = sliwka
+jadalne(X).
+X = jablko
+X = gruszka
+X = sliwka
+(owoc(X); warzywo(X)).
+X = jablko
+X = gruszka
+X = sliwka
+X = marchew
+lubi(jan,X), lubi(anna,X).
+
+1: Syntax error: Operator expected
+
+X = muzyka
+pogoda(lublin,Pora,Opis).
+Opis = cieple,
+Pora = lato
+Opis = umiarkowana,
+Pora = zima
+pogoda(lopatka,Pora,Opis).
+false
+pogoda(lublin,Pora,Opis).
+Opis = cieple,
+Pora = lato
+Opis = umiarkowana,
+Pora = zima
+pogoda(Miasto,lato,upalne).
+Miasto = kair
+kanal(X,sluch).
+X = dzwonek
+X = szept
+owoc(jablko).
+1true
+owoc(marchew).
+false
+pogoda(lublin,zima,umiarkowana).
+1true
+jadalne(jablko).
+1true
+jadalne(X).
+X = jablko
+X = gruszka
+X = sliwka
+X = jablko
+X = gruszka
+X = sliwka
+lubi(jan,X), lubi(anna,X).
+X = muzyka
